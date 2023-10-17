@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.about_beagle {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+}
+
+hr {
+  width: 25%;
+  padding: 10;
+}
+
+p {
+  line-height: 1.6rem;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 28;
+}
+
+.about_beagle>a {
+  margin: 14px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(0, 255, 166);
+}
+
+div.scroll-container {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.more_img {
+  padding: 6px;
+}
+
+/* gallery section */
+.container-gallery {
+  width: 80%;
+  margin: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.scroll-container h2 {
+  text-decoration: underline;
+}
+
+.section-3 {
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  line-height: 2rem;
+}
+
+.heading {
+  text-decoration: underline;
+}
+
+.section-3 h3 {
+  text-decoration: underline;
+
+}
