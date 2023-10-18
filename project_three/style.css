@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.box {
+  width: 50%;
+  margin: auto;
+  height: 100px;
+  background-color: green;
+  margin-top: 10px;
+}
+
+.container-inner {
+  display: flex;
+}
+
+.innerBox {
+  width: 30px;
+  height: 40px;
+  background-color: violet;
+}
