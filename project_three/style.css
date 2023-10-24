@@ -8,14 +8,34 @@
   height: 100px;
   background-color: green;
   margin-top: 10px;
+  text-align: center;
+  font-size: 28px;
 }
 
 .container-inner {
   display: flex;
+  padding: 5px;
 }
 
-.innerBox {
-  width: 30px;
-  height: 40px;
+.container-inner>div {
+  width: 500px;
+  height: 240px;
   background-color: violet;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.innerBoxTwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerBoxTwo>div {
+  width: 270px;
+  height: 240px;
+  background-color: violet;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
